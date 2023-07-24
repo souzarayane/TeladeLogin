@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111827;
+    font-family: 'Inter', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    background-color: #1F2937;
+    border-radius: 15px;
+    width: 700px;
+    height: 400px;
+}
+
+#form {
+    font-size: 14px;
+    font-weight: 600;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form label {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+#form label input {
+    margin: 10px 0 18px 0;
+    height: 35px;
+    width: 325px;
+    border-radius: 6px;
+    background-color: #374151;
+    border: none;
+    padding-left: 15px;
+}
+
+#form label placeholder {
+    margin-left: 10px;
+}
+
+#form h1 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+#form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form button {
+    height: 35px;
+    width: 325px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    background-color: #2563EB;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 20px 0 25px 0;
+}
+
+#checkbox {
+    color: #D1D5DB;
+    display: flex;
+    margin-right: 8px;
+}
+
+#checkbox a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #2563EB;
+    margin-left: 53px;
+}
+
+#checkbox > p {
+    color: #D1D5DB;
+    font-weight: 300;
+    margin-left: 8px;
+}
+
+#form a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #2563EB;
+}
+
+.account {
+    color: #D1D5DB;
+    font-weight: 300;
+    margin-right: 60px;
+}
+
+#img {
+    width: 60%;
+    background-color: #1F2937;
+    border-radius: 15px;
+}
+
+#img img {
+    width: 95%;
+    height: 100%;
+}
+
+/*Responsive*/
+
+@media screen and (max-width: 480px) {
+    #form {
+        font-size: 12px;
+    }
+
+    #form label input {
+        width: 225px;
+        font-size: 12px;
+    }
+
+    #form h1 {
+        font-size: 18px;
+    }
+
+    #form button {
+        width: 225px;
+    }
+
+    #checkbox a {
+        margin-left: 10px;
+        font-size: 11px;
+    }
+    
+    #checkbox > p {
+        font-size: 11px;
+    }
+
+    .account {
+        font-size: 11px;
+        margin-right: 25px;
+    }
+
+    #img {
+        width: 45%;
+    }
+    
+    #img img {
+        width: 100%;
+        height: 100%;
+    }
+}
